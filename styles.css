@@ -1,0 +1,71 @@
+.h2arlle{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+}
+
+.h1arlle{
+        font-family: "Mochiy Pop One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+
+.fotoporra{
+    margin-left: 15px;
+    width: 380px;
+    height: 400px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    
+}
+
+.contact{
+    font-family: "Mochiy Pop One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.seilakkkk{
+        font-family: "Mate SC", serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+
+.fotodoperfil{
+    z-index: 1;
+    margin-inline-end: 50px;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 400px;
+}
+.outrolado{
+    flex: 1;
+    margin-left: 0px;
+    text-align: center;
+}
+span{
+    font-family: "Mate SC", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+h3{
+    font-family: "Mochiy Pop One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        color: #C1D0C2;
+        
+}
+
+p{
+    font-family: "Mate SC", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+}
