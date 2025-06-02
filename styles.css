@@ -1,71 +1,90 @@
-.h2arlle{
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-style: normal;
-  
-}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Mochiy+Pop+One&family=Mate+SC&display=swap');
 
-.h1arlle{
-        font-family: "Mochiy Pop One", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      
-}
-
-.fotoporra{
-    margin-left: 15px;
-    width: 380px;
-    height: 400px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    padding-left: 10px;
-    
-}
-
-.contact{
-    font-family: "Mochiy Pop One", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-}
-
-.seilakkkk{
-        font-family: "Mate SC", serif;
-        font-weight: 400;
-        font-style: normal;
-      
-}
-
-.fotodoperfil{
-    z-index: 1;
-    margin-inline-end: 50px;
+* {
     margin: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 400px;
+    padding: 0;
+    box-sizing: border-box;
 }
-.outrolado{
-    flex: 1;
-    margin-left: 0px;
+
+.h2arlle {
+    font-family: "Dancing Script", cursive;
+    font-style: normal;
     text-align: center;
 }
-span{
-    font-family: "Mate SC", serif;
-        font-weight: 400;
-        font-style: normal;
-}
 
-h3{
+.h1arlle {
     font-family: "Mochiy Pop One", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        text-align: center;
-        color: #C1D0C2;
-        
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
 }
 
-p{
+.contact, p, span {
     font-family: "Mate SC", serif;
-        font-weight: 400;
-        font-style: normal;
-        text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
 }
+
+h3 {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #C1D0C2;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box {
+    width: 100%;
+    height: 300px;
+    background: #C1D0C2;
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove qualquer padding */
+    border: none; /* Garante que não haja bordas */
+}
+
+.fotoporra {
+    width: 380px;
+    height: 400px;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.fotodoperfil {
+    z-index: 1;
+    margin: 0 auto 50%;
+    padding: 0 10px;
+    width: 400px;
+    overflow: hidden;
+}
+
+.outrolado {
+    flex: 1;
+    text-align: center;
+}
+
+@media (max-width: 600px) { 
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fotodoperfil {
+        width: 100%;
+        height: auto;
+    }
+
+    .outrolado {
+        margin-top: 20px;
+    }
+}
+
